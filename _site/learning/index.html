@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/wax-facets/assets/css/style.css">
+
+  <!-- FAVICONS & APPS -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/wax-facets/assets/logo/apple-icon-57x57.png"/>
+  <link rel="apple-touch-icon" sizes="60x60" href="/wax-facets/assets/logo/apple-icon-60x60.png"/>
+  <link rel="apple-touch-icon" sizes="72x72" href="/wax-facets/assets/logo/apple-icon-72x72.png"/>
+  <link rel="apple-touch-icon" sizes="76x76" href="/wax-facets/assets/logo/apple-icon-76x76.png"/>
+  <link rel="apple-touch-icon" sizes="114x114" href="/wax-facets/assets/logo/apple-icon-114x114.png"/>
+  <link rel="apple-touch-icon" sizes="120x120" href="/wax-facets/assets/logo/apple-icon-120x120.png"/>
+  <link rel="apple-touch-icon" sizes="144x144" href="/wax-facets/assets/logo/apple-icon-144x144.png"/>
+  <link rel="apple-touch-icon" sizes="152x152" href="/wax-facets/assets/logo/apple-icon-152x152.png"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/wax-facets/assets/logo/apple-icon-180x180.png"/>
+  <link rel="shortcut icon" type="image/png" sizes="192x192"  href="/wax-facets/assets/logo/android-icon-192x192.png"/>
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="/wax-facets/assets/logo/favicon-32x32.png"/>
+  <link rel="shortcut icon" type="image/png" sizes="96x96" href="/wax-facets/assets/logo/favicon-96x96.png"/>
+  <link rel="shortcut icon" type="image/png" sizes="16x16" href="/wax-facets/assets/logo/favicon-16x16.png"/>
+  <link rel="manifest" href="/wax-facets/assets/logo/manifest.json"/>
+  <meta name="msapplication-TileColor" content="#ffffff"/>
+  <meta name="msapplication-TileImage" content="/assets/logo/ms-icon-144x144.png"/>
+  <meta name="theme-color" content="#ffffff"/>
+
+  <!-- SCRIPTS -->
+  <script type='text/javascript' src='http://localhost:4000/wax-facets/assets/js/jquery-3.5.1.min.js'></script>
+  
+  <script type='text/javascript' defer src='http://localhost:4000/wax-facets/assets/js/bootstrap/bootstrap.min.js'></script>
+  <noscript><p>Please enable JavaScript in your browser.</p></noscript>
+</head>
+<body><header class="site-header">
+    <nav class="navbar navbar-expand-md banner">
+        <a class="title navbar-brand" rel="author" href="/wax-facets/">Facets</a>
+        <span class="subtitle navbar-text">A Jekyll theme for Wax sites</span>
+  <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+    aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon">&#9776;</span></button>
+
+  <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+                
+    <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+            
+                
+                <li class='nav-item dropdown'>
+                <a class='nav-link dropdown-toggle' href='#' id='wax-exhibits-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                Exhibits
+                </a>
+                <div class='dropdown-menu' aria-labelledby='wax-exhibits-dropdown'>
+                
+                <a class='dropdown-item' href='http://localhost:4000/wax-facets/exhibits/parallax/'>Parallax Images</a>
+                
+                <a class='dropdown-item' href='http://localhost:4000/wax-facets/exhibits/references/'>Image References</a>
+                
+                <a class='dropdown-item' href='http://localhost:4000/wax-facets/exhibits/subset/'>Subset Collection</a>
+                
+                </div>
+                </li>
+                
+            
+                
+                <li class='nav-item'>
+                    <a class='nav-link' href='http://localhost:4000/wax-facets/collection/'>Browse</a>
+                </li>
+                
+            
+                
+                <li class='nav-item'>
+                    <a class='nav-link' href='http://localhost:4000/wax-facets/search/'>Search</a>
+                </li>
+                
+            
+                
+                <li class='nav-item'>
+                    <a class='nav-link' href='http://localhost:4000/wax-facets/learning/'>How To</a>
+                </li>
+                
+            
+                
+                <li class='nav-item'>
+                    <a class='nav-link' href='http://localhost:4000/wax-facets/about/'>About</a>
+                </li>
+                
+                            
+            </ul>
+        </div>
+    </nav>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Learning how to</h1>
+  </header>
+
+  <div class="post-content">
+    <h2 id="-use-wax">… use Wax</h2>
+
+<p>Facets is a <a href="https://minicomp.github.io/wax/">Wax</a> theme. Wax in turn relies on Jekyll. To use Facets you need to be familiar with both Jekyll and Wax. To learn more about setting up and using Wax visit <a href="https://minicomp.github.io/wiki/wax/">the Wax wiki</a>. You can learn more about using Jekyll on the <a href="https://jekyllrb.com/docs/">Jekyll docs</a>, or in <a href="https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages">this great tutorial</a> by Amanda Visconti at Programming Historian.</p>
+
+<h2 id="-create-a-faceted-gallery">… create a faceted gallery</h2>
+
+<p>As other Wax sites, <em>Facets</em> depends on the metadata you create. Let’s assume you are using a CSV to record data for your collection. In order for <em>Facets</em> to work, that CSV must have designated columns for each large category you want to “facet” by. These become the <em>facet headers</em> at the top of the drop-down menus above the gallery. Each of these columns then accepts a small range of sub-categories, or <em>facet values</em>. These become the check boxes.</p>
+
+<p><br />
+<img src="http://localhost:4000/wax-facets/assets/figures/fig1.png" height="100%" width="100%" alt="Figure 1. Illustration of Facet Headers and Facet Values" />
+<br />
+<br /></p>
+
+<p>The first step before creating a facet gallery on any one of your pages is to add <code class="language-plaintext highlighter-rouge">gallery: True</code> to your YAML header. See the example at the top of our <a href="https://github.com/minicomp/wax-facets/blob/main/pages/collection.md">collection.md</a> file.</p>
+
+<p>Next, we tell <em>Facets</em> what collection gallery to insert and what columns to facet by with a Jekyll <code class="language-plaintext highlighter-rouge">include</code> command that brings in the gallery at the desired place on the page. This <code class="language-plaintext highlighter-rouge">include</code> snippet requires a <code class="language-plaintext highlighter-rouge">collection:</code> variable and a <code class="language-plaintext highlighter-rouge">facet_by:</code> variable. You can also pass an optional variable to control the number of columns displayed on large screens: <code class="language-plaintext highlighter-rouge">num_column:</code>. This theme already comes with the following example in the <a href="/collection/">Browse</a> page. In order to use it, just replace the sample values with your own when editing the page:</p>
+
+<p><code class="language-plaintext highlighter-rouge">{% include gallery.html collection='qatar' facet_by='object_type|location|tags*' num_column=4 %}</code></p>
+
+<p>Notice that instead of the original <code class="language-plaintext highlighter-rouge">collection_gallery.html</code> we use <code class="language-plaintext highlighter-rouge">gallery.html</code>.</p>
+
+<p>For the <code class="language-plaintext highlighter-rouge">facet_by:</code> variable, specify one or more field names in a pipe-separated list. Use an asterisk (<code class="language-plaintext highlighter-rouge">*</code>) after the field name if its entries contain multiple values (See below for more details).  For the <code class="language-plaintext highlighter-rouge">num_column:</code> variable, specify a number that is a divisor of 12 (i.e, 1, 2, 3, 4, or 6). This is the number of columns you want to have. If you don’t include the <code class="language-plaintext highlighter-rouge">num_column:</code> variable, the default is 6 columns.</p>
+
+<h2 id="-use-facets-with-multiple-value-entries">… use facets with multiple-value entries</h2>
+
+<p>Say for example you’re trying to use tags in your project, or describe cultural objects that may or may not be in multiple languages. In our qatar data we have a tags column with entries like <code class="language-plaintext highlighter-rouge">text,text|people,flora|people|fauna</code>. Some of these entries have only one value, some have several. Facets allows you to isolate all the unique individual values and create a facet selection form based on them.  In order to command facets to treat a particular facet as multi-value, just add an asterisk (<code class="language-plaintext highlighter-rouge">*</code>) to the facet in your <code class="language-plaintext highlighter-rouge">facet_by:</code> variable, as in the example from the Browse page:</p>
+
+<p><code class="language-plaintext highlighter-rouge">{% include gallery.html collection='qatar' facet_by='object_type|location|tags*' num_column=4 %}</code></p>
+
+<p>Notice that in this case, <code class="language-plaintext highlighter-rouge">tags*</code> has an asterisk. Our default separator for multi-value categories is the pipe (<code class="language-plaintext highlighter-rouge">|</code>), but you can change this preference at the top of the <code class="language-plaintext highlighter-rouge">gallery.html</code> file in the <code class="language-plaintext highlighter-rouge">_includes</code> folder.</p>
+
+<h2 id="-create-a-subset-gallery">… create a subset gallery</h2>
+
+<p><em>Facets</em> also allows you to create galleries for subsets of your collections. A subset collection will only include items that have <a href="https://shopify.github.io/liquid/filters/where/">a truthy value</a> for that specific “field value.” Consider the first example we use in ‘<a href="/exhibits/subset/">Exhibit with Subset Collection</a>’:</p>
+
+<p><code class="language-plaintext highlighter-rouge">{% include gallery.html collection='qatar' field='object_type' value='portrait' num_column=4 %}</code></p>
+
+<p>The gallery that results from this instruction only shows portraits. This <code class="language-plaintext highlighter-rouge">include</code> command is slightly different than the one for browsing the whole collection. They both share a <code class="language-plaintext highlighter-rouge">collection:</code> and a <code class="language-plaintext highlighter-rouge">num_column:</code> variable. To use this <code class="language-plaintext highlighter-rouge">include</code>, though, you need to declare a <code class="language-plaintext highlighter-rouge">field:</code> variable. This is equivalent to a column from your data. Then you pick the <code class="language-plaintext highlighter-rouge">value:</code> that you want to limit results to.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">facet_by:</code> is optional. If we don’t want to facet further, as in this case, we simply leave it out. In the second example on the same page, we create a subset based on one category and <code class="language-plaintext highlighter-rouge">facet_by</code> two others, <code class="language-plaintext highlighter-rouge">location</code> and <code class="language-plaintext highlighter-rouge">current_location</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">{% include gallery.html collection='qatar' field='object_type' value='manuscript' facet_by='location|current_location' num_column=4 %}</code></p>
+
+<h2 id="-change-our-design">… change our design</h2>
+
+<p><em>Facets</em> is a prototype, just as <em>Wax</em> itself is a prototype, a tool to think with that is also immediately practical. Both of these are built on Jekyll, which allows you an enormous amount of flexibility for changing the design of your site. Feel free to play around with the code that makes our exhibit pages and our galleries tick. The more you transform our work, the more we will feel like we succeeded.</p>
+
+<p>The CSS that determines the look of the site is done using a combination of SASS and the bootstrap framework. To change some common variables, like colors or fonts, you can edit the <code class="language-plaintext highlighter-rouge">/assets/css/style.scss</code> file. You can always override our own choices from this file as well. You can also add your own CSS files to the <code class="language-plaintext highlighter-rouge">_sass</code> folder, and simply import them into the main sass file above.</p>
+
+<p>To change the description section of our cards, for ex. “A manuscript from Turkey (1801),” go to the “CONSTRUCTED CARD TEXT” section of the <code class="language-plaintext highlighter-rouge">gallery.html</code> file.</p>
+
+<h2 id="-use-facets-with-another-wax-theme">… use Facets with another Wax theme</h2>
+
+<p>In theory, Facets should be able to be transferred to another Wax theme following four simple steps.</p>
+
+<ol>
+  <li>Copy our <a href="https://github.com/minicomp/wax-facets/blob/main/_includes/gallery.html">gallery.html</a> file into your <code class="language-plaintext highlighter-rouge">_includes</code> folder.</li>
+  <li>Copy our <a href="https://github.com/minicomp/wax-facets/blob/main/assets/js/facets.js">facets.js</a> file into wherever you keep your JavaScript files. The Main Wax theme for example uses the <code class="language-plaintext highlighter-rouge">/assets/</code> folder directly. Make a note of where you put it. You will use the path in the next step.</li>
+  <li>Load our javascript file from step #2 into your relevant layout. The easiest way is just to place the following line at the bottom of your default layout:<br />
+<br />
+<code class="language-plaintext highlighter-rouge">&lt;script type='text/javascript' async defer src='{{ "/assets/facets.js" | absolute_url }}'&gt;&lt;/script&gt;</code><br />
+<br />
+The other alternative is to create a layout just for galleries and place the script there, like we do in the Facets theme.</li>
+  <li>Copy the “FACET  BUTTONS” section of our “<a href="https://github.com/minicomp/wax-facets/blob/main/_sass/_facets.scss">_facets.scss</a>” file at the end of your SASS or CSS file. We put this section at the end of our file for your convenience. If you are working with the original Wax theme, this snippet would go at the end of the “<a href="https://github.com/minicomp/wax/blob/main/_sass/_wax.scss">/_sass/_wax.scss</a>” file.</li>
+</ol>
+
+<p>N.B. Make sure to call the right file in your <code class="language-plaintext highlighter-rouge">include</code> command. Notice we’re calling it <code class="language-plaintext highlighter-rouge">gallery.html</code> and not <code class="language-plaintext highlighter-rouge">collection_gallery.html</code> as we would normally. Ex:<br />
+<br />
+<code class="language-plaintext highlighter-rouge">{% include gallery.html collection='qatar' facet_by='object_type' num_column=4 %}</code></p>
+
+<p>After these steps you might still want to tweak the final results. For example, if you’re transferring to the original Wax theme, you might want to tweak the font size and the bottom margin on the buttons. We’ll leave the final pixel-pushing to you.</p>
+
+  </div>
+
+</article>
+
+          </div>
+        </div>
+      </div>
+    </main><footer class="banner text-center">
+  <div class="container p-2">
+    <div class="row">
+      <div class="col-lg-6">
+        <p>Example License Text</p>
+      </div>
+      <div class="col-lg-6">      
+        <span><small>Built with </small><a href="https://minicomp.github.io/wax/" target="_blank">Wax</a><small> and </small><a href="https://jekyllrb.com/" target="_blank">Jekyll</a><small>. Available on </small><a href="https://github.com/minicomp/wax-facets/">GitHub</a></span>      
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
