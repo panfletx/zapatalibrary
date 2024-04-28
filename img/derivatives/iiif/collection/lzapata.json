@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/lzapata.json",
+  "@type": "sc:Collection",
+  "label": "lzapata",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/u1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "u1"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/u2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "u2"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/u3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "u3"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/u4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "u4"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/u5/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "u5"
+    }
+  ]
+}

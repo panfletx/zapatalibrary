@@ -11,6 +11,7 @@ $ mogrify -format png +level-colors "#882D60", *.png
 <div id="osd" class="image-viewer"></div>
 <script async defer src="{{ '/assets/js/openseadragon/openseadragon.min.js' | absolute_url }}"></script>
 <script>
+  console.log('here');
   $(document).ready(function () {
     var manifestUrl = "{{ include.manifest | absolute_url }}";
     $.getJSON(manifestUrl, function(data) {
@@ -18,6 +19,7 @@ $ mogrify -format png +level-colors "#882D60", *.png
       $.each(data.sequences[0].canvases, function(k, val) {
         tileSources.push(val.images[0].resource.service['@id'] + '/info.json');
       });
+      console.log(tileSources);
       OpenSeadragon({
         id: "osd",
         sequenceMode: true,
