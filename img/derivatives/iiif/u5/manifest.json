@@ -6,101 +6,101 @@ layout: none
   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/u5/manifest.json",
   "@type": "sc:Manifest",
   "label": "u5",
-  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_7699/full/250,/0/default.jpg",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_IMG_7699/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",
   "sequences": [
     {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/u5_7699.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/u5_IMG_7699.json",
       "@type": "sc:Sequence",
       "canvases": [
         {
           "@type": "sc:Canvas",
-          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/u5_7699.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/u5_IMG_7699.json",
           "label": "Page 1",
           "width": 1512,
           "height": 2016,
-          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_7699/full/250,/0/default.jpg",
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_IMG_7699/full/250,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
-              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/u5_7699.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/u5_IMG_7699.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_7699/full/full/0/default.jpg",
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_IMG_7699/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_7699",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_IMG_7699",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 1512,
                 "height": 2016
               },
-              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/u5_7699.json"
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/u5_IMG_7699.json"
             }
           ]
         },
         {
           "@type": "sc:Canvas",
-          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/u5_7700.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/u5_IMG_7700.json",
           "label": "Page 2",
           "width": 1512,
           "height": 2016,
-          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_7700/full/250,/0/default.jpg",
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_IMG_7700/full/250,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
-              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/u5_7700.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/u5_IMG_7700.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_7700/full/full/0/default.jpg",
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_IMG_7700/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_7700",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_IMG_7700",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 1512,
                 "height": 2016
               },
-              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/u5_7700.json"
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/u5_IMG_7700.json"
             }
           ]
         },
         {
           "@type": "sc:Canvas",
-          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/u5_7701.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/u5_IMG_7701.json",
           "label": "Page 3",
           "width": 1512,
           "height": 2016,
-          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_7701/full/250,/0/default.jpg",
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_IMG_7701/full/250,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
-              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/u5_7701.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/u5_IMG_7701.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_7701/full/full/0/default.jpg",
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_IMG_7701/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_7701",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_IMG_7701",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 1512,
                 "height": 2016
               },
-              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/u5_7701.json"
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/u5_IMG_7701.json"
             }
           ]
         }
       ]
     }
   ],
-  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_7699/full/full/0/default.jpg",
-  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_7699/full/1140,/0/default.jpg"
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_IMG_7699/full/full/0/default.jpg",
+  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/u5_IMG_7699/full/1140,/0/default.jpg"
 }
