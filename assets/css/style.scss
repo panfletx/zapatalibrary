@@ -7,43 +7,29 @@ sitemap: false
   font-family: "Open Sans Light";
   font-style: normal;
   font-weight: 300;
-  src: url('{{ "/assets/fonts/OpenSans/open-sans-v18-latin-300.eot" | absolute_url }}'); /* IE9 Compat Modes */
-  src: local(""),
-    url('{{ "/assets/fonts/OpenSans/open-sans-v18-latin-300.woff2" | absolute_url }}')
-      format("woff2"),
-    /* Super Modern Browsers */
-      url('{{ "/assets/fonts/OpenSans/open-sans-v18-latin-300.woff" | absolute_url }}')
-      format("woff");
 }
 
 /* open-sans-regular - latin */
 @font-face {
   font-family: "Open Sans Regular";
   font-style: normal;
-  font-weight: 400;
-  src: url('{{ "/assets/fonts/OpenSans/open-sans-v18-latin-regular.eot" | absolute_url }}');
-  src: local(""),
-    url('{{ "/assets/fonts/OpenSans/open-sans-v18-latin-regular.woff2" | absolute_url }}')
-      format("woff2"),
-    /* Super Modern Browsers */
-      url('{{ "/assets/fonts/OpenSans/open-sans-v18-latin-regular.woff" | absolute_url }}')
-      format("woff");
+  font-weight: 400
 }
 
 /* text */
 
-$body-font: "Open Sans Regular", "Verdana", "sans-serif";
-$heading-font: "Open Sans Light", "Verdana", "sans-serif";
+$body-font: "Georgia", "Palatino", "serif";
+$heading-font: "Courier", "serif";
 
 /* Colors */
 
-$dark-background: #440027;
-$light-text: #d49a6a;
-$light-link: #ffd1aa;
-$light-link-hover: #fff;
-$medium-background: #801515;
-$light-background: #f7e4ef;
-$dark-text: #444444;
+$dark-background: #ffffff;
+$light-text: #69A5BE;
+$light-link: #176C8F;
+$light-link-hover: #69A5BE;
+$medium-background: #176C8F;
+$light-background: #176C8F;
+$dark-text: #000000;
 $code: #3c1553;
 $muted-text: #777777;
 
@@ -57,3 +43,51 @@ $viewer-height: 100%;
 $max-width: 100%;
 
 @import "facets";
+
+.mosaic {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 3px;
+  padding: 0px;
+}
+
+.photo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.horizontal {
+  grid-column: span 6;
+  grid-row: span 3;
+  object-fit: cover;
+  object-position: 100% 0;
+}
+
+/* Bootstrap responsive classes */
+
+@media (max-width: 575px) {
+
+  .mosaic {
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 2px;
+  }
+
+  .horizontal {
+      grid-columns: span 6;
+      grid-row: span 3;
+  
+  }
+
+  .subtitle {
+      display: none;
+
+  }
+}
