@@ -13,7 +13,7 @@ mosaic: true
 <p>La digitalización fue posible gracias al apoyo financiero de una beca FLAGS del programa de estudios LGBT de Yale. Estuvo a cargo de Alan Mendoza Sosa, doctorando con interés en literatura LGBT hispanoamericana, y fue supervisado por el profesor Alexander Gil Fuentes, investigador de humanidades digitales en el Departamento de español y portugués en Yale y director asociado del Foro Creativo, iniciativa que conecta la creación literaria con el trabajo de investigación.</p>
 <p>Se proyecta lanzar el archivo y catálogo el 27 de abril del 2024, fecha que marcaría el cumpleaños número 73 de Luis Zapata.
 
-<p><a href="https://www.zotero.org/groups/5643961/bibliotecazapata/library">Acceder al catálogo</a>
+<p><a href="https://www.zotero.org/groups/5644008/zapata/library">Acceder al catálogo</a>
 
 <script>
     const mosaic = document.getElementById('mosaic');
